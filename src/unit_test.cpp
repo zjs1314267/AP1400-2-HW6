@@ -8,7 +8,7 @@
 #include "q3.h"
 #include "q4.h"
 
-/*
+
 TEST(HW6Test, TEST1) {
     auto min1 = q1::gradient_descent(0.01, 0.1, cos);
     EXPECT_NEAR(min1, 3.14, 0.1);
@@ -78,7 +78,7 @@ TEST(HW6Test, TEST7) {
     std::vector<std::string> correct{"9725", "QR720", "MA127", "9724", "QR492", "GH758"};
     EXPECT_EQ(flight_numbers, correct);
 }
-
+/*
 TEST(HW6Test, TEST8) {
     std::vector<q4::Sensor> sensors{{{0, 0.01}, 0.5},
                                 {{0.5, 0.009}, 0.2}};
